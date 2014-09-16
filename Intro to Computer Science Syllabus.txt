@@ -1,0 +1,32 @@
+Introduction to Computer Science
+High School for Global Citizenship
+Mr. Wittrock, Dr. Fogelson, Mr. Moseley, 
+Ms. Bhuiya
+9/4/14
+
+Teacher email: hsgc.cs@gmail.com
+
+The goal of this class is to develop an understanding of computers, how they’re broadly useful, to automate tasks, and how to create amazing (and fun) games and projects with them.
+
+Tools:
+
+-  SNAP! (http://snap.berkeley.edu/), which we’ll use at least at the start of the course. Take a look pretty soon, there are some good tutorials around
+-  Class website (URL to come)
+
+Course Topics:
+
+- What is computing? Learning about algorithms and the machines that implement them.
+- Mario: Making your first interactive game in SNAP!
+- Pong: Using variables and functions to build a fully-functional two player game.
+- Hangman: Learning about lists as data structures when you build this classic game.
+- Space Invaders: Modeling objects hierarchically in making this original ATARI game.
+- Roll your own: Build your own final game using everything you’ve learned about throughout the course.
+
+Policies:
+
+- Notebooks will be used to take notes when we’re going over new content. There will be periodic notebook checks, which will be graded. These will count towards 20% of your grade.
+- These will count towards 20% of your grade.
+- There are a few units in the course, most of which will be concluded with a lab project (usually you’ll be coding a fun game). The first unit will finish with a pen-and-paper test. These will count towards 50% of your final grade.
+- There will be periodic quizzes throughout the semester. These will count towards 30% of your final grade.
+
+This course is meant to be exciting and enlightening! If you have questions about what we’ll be working on or what the class will be like, shoot the teachers an email at hsgc.cs@gmail.com and we’ll get back to you within 12 hours.
