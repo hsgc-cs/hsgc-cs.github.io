@@ -10,10 +10,11 @@ Start with [**Snake** SNAP project](http://snap.berkeley.edu/snapsource/snap.htm
 
 Create your own _Snake_-style game in SNAP.
 
-1. The snake's head (the sprite) starts at the center of the screen. It begins moving when the green flag is pressed. It doesn't stop moving until the game is over.
-2. Pressing the "left" or "right" arrow key turns the snake 90° left or right.
-3. The snake leaves behind a green pen trail as it moves.
-4. The game is over when the snake hits the edge of the stage or its own tail.
+1. The game starts when the **green flag** is pressed.
+2. The snake's head (the sprite) starts at the center of the screen and **moves** to the right.
+3. **Pressing** the "left" or "right" arrow key turns the snake 90° left or right.
+4. The snake leaves behind a **green pen trail** as it moves.
+5. The game is over when the snake **touches the edge** of the stage or **touches its tail**. (The snake should stop.)
 
 ## Extra Credit
 
