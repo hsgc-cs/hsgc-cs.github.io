@@ -2,7 +2,7 @@
 
 HSGC, Intro to Computer Science — September 19, 2014
 
-Start with [**Snake** SNAP project](http://snap.berkeley.edu/snapsource/snap.html#present:Username=loganmoseley&ProjectName=snake_init)
+Start with [**Mario** SNAP project]
 
 ## Abstract
 
@@ -34,7 +34,7 @@ First appearing as "Jumpman" in the original Donkey Kong arcade game, Mario quic
 8. Place three coins at _y = ground + 100_. When Mario **touches** a coin, he gets 4 points.
 9. **Show** the score.
 
-[**Snake** SNAP project](http://snap.berkeley.edu/snapsource/snap.html#present:Username=loganmoseley&ProjectName=snake_init) will get you started.
+[**Mario** SNAP project] will get you started.
 
 Don't forget your resetting blocks.
 
