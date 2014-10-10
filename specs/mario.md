@@ -2,7 +2,7 @@
 
 HSGC, Intro to Computer Science — September 19, 2014
 
-Start with [**Mario** SNAP project]
+Start with your walking and costumes SNAP project.
 
 ## Abstract
 
@@ -21,20 +21,20 @@ First appearing as "Jumpman" in the original Donkey Kong arcade game, Mario quic
     * ★★★ standing, moving (cycle), jump
 5. **Jump** by pressing [space]
     * ★☆☆☆☆ **Teleport up:** go to (x, ground + 100) while holding [space]
-    * ★★☆☆☆ **Timed:** go to (x, ground + 100) by pressing [space]. 1 second later, return to the ground
-    * ★★★☆☆ **Include velocity:** go to (x + velocity, ground + 100) by pressing [space]. 1 second later, return to the ground
-    * ★★★★☆ **Glide:** glide to (x + velocity, ground + 100), glide down
+    * ★★☆☆☆ **Timed:** go to (x, ground + 100) by pressing [space]. 1 second later, return to (x, ground)
+    * ★★★☆☆ **Glide:** glide to (x, ground + 100), glide back down to (x, ground)
+    * ★★★★☆ **Include velocity:** go to (x + velocity, ground + 100) by pressing [space]. 1 second later, return to (x, ground)
     * ★★★★★ **Gravity:** simulate it
-6. Mushroom (enemy movement)  
-    * ★☆ **Walks** forward along ground forever. Stays on the screen.  
+6. Goomba (mushroom): enemy movement
+    * ★☆ **Moves** back and forth along ground forever. Stays on the screen.  
     * ★★ Pursues Mario.
-7. Enemy collision
-    * ★☆ The game ends when Mario **touches** the enemy.
-    * ★★ Mario can jump on top of the enemy to get 10 points. **Touching** its side is still a game over.
-8. Place three coins at _y = ground + 100_. When Mario **touches** a coin, he gets 4 points.
+7. Goomba collision
+    * ★☆ The game ends when Mario **touches** a Goomba.
+    * ★★ Mario can jump on top of the enemy to get 10 points and make the mushroom. **Touching** its side is still a game over.
+8. Place three coins at _y = ground + 100_. When Mario **touches** a coin he gets 4 points and the coin disappears.
 9. **Show** the score.
 
-[**Mario** SNAP project] will get you started.
+Start with your walking and costumes SNAP project.
 
 Don't forget your resetting blocks.
 
