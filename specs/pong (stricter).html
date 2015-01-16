@@ -343,14 +343,14 @@ sup {
 <li>Movement
 
 <ul>
-<li>The ball moves 2 steps per frame (per iteration of forever or repeat).</li>
+<li>The ball moves 2 steps per frame (per iteration of <code>forever</code> or <code>repeat</code>).</li>
 </ul>
 </li>
 <li>Bouncing off a paddle
 
 <ul>
 <li>When the ball touches a paddle, it bounces off the paddle as a typical physical ball would. Specifically, the angle of incidence of the ball approaching the paddle must equal the angle of reflection of the ball leaving the paddle.</li>
-<li>The calculation of the new angle and pointing the ball at that angle must be implemented as a custom block named BounceOffPaddle.</li>
+<li>The calculation of the new angle and pointing the ball at that angle must be implemented as a custom block named <strong><code>BounceOffPaddle</code></strong>.</li>
 <li>Hint: Both paddles are vertical. Consider how that assumption can make the calculation simpler.</li>
 </ul>
 </li>
@@ -413,7 +413,7 @@ sup {
 <ul>
 <li>The player who just scored (who did not miss the ball) is awarded 1 point.</li>
 <li>If one or more balls remain, the ball resets to the center, waits 3 seconds, and launches again. You may recognize this from “Ball Sprite, The beginning of a round.”</li>
-<li>If zero balls remain, “Game Over” and the winner are declared and said. (Use a say block.) The player with the most points is the winner.</li>
+<li>If zero balls remain, “Game Over” and the winner are declared and said. (Use a <code>say</code> block.) The player with the most points is the winner.</li>
 </ul>
 </li>
 </ul>

@@ -16,7 +16,7 @@ Created in 1972 by Atari incorporated, Pong is one of the earliest video games. 
 
 ### Ball Sprite
 
-* The beginning of a round    * The ball starts each round (including the first) at the middle of the screen.    * The ball points in a random direction between 0 and 359 (a full circle).    * Play begins and the ball begins moving after 3 seconds.* Movement    * The ball moves 2 steps per frame (per iteration of forever or repeat).*  Bouncing off a paddle    * When the ball touches a paddle, it bounces off the paddle as a typical physical ball would. Specifically, the angle of incidence of the ball approaching the paddle must equal the angle of reflection of the ball leaving the paddle.    * The calculation of the new angle and pointing the ball at that angle must be implemented as a custom block named BounceOffPaddle.     * Hint: Both paddles are vertical. Consider how that assumption can make the calculation simpler.* Edge bounce    * The ball must bounce off the top and bottom parts of the playing field.
+* The beginning of a round    * The ball starts each round (including the first) at the middle of the screen.    * The ball points in a random direction between 0 and 359 (a full circle).    * Play begins and the ball begins moving after 3 seconds.* Movement    * The ball moves 2 steps per frame (per iteration of `forever` or `repeat`).*  Bouncing off a paddle    * When the ball touches a paddle, it bounces off the paddle as a typical physical ball would. Specifically, the angle of incidence of the ball approaching the paddle must equal the angle of reflection of the ball leaving the paddle.    * The calculation of the new angle and pointing the ball at that angle must be implemented as a custom block named **`BounceOffPaddle`**.    * Hint: Both paddles are vertical. Consider how that assumption can make the calculation simpler.* Edge bounce    * The ball must bounce off the top and bottom parts of the playing field.
 
 ### Human Paddle Sprite
 
@@ -27,7 +27,7 @@ Created in 1972 by Atari incorporated, Pong is one of the earliest video games. 
 
 ### When you miss
 
-* Cause    * The ball qualifies as ‘missed’ when the ball goes past a paddle. In other words, the ball is ‘missed’ when the ball’s y position exceeds a paddle’s y position. “Exceed” meaning more positive or more negative. * Effect    * The player who just scored (who did not miss the ball) is awarded 1 point.     * If one or more balls remain, the ball resets to the center, waits 3 seconds, and launches again. You may recognize this from “Ball Sprite, The beginning of a round.”    * If zero balls remain, “Game Over” and the winner are declared and said. (Use a say block.) The player with the most points is the winner.
+* Cause    * The ball qualifies as ‘missed’ when the ball goes past a paddle. In other words, the ball is ‘missed’ when the ball’s y position exceeds a paddle’s y position. “Exceed” meaning more positive or more negative. * Effect    * The player who just scored (who did not miss the ball) is awarded 1 point.     * If one or more balls remain, the ball resets to the center, waits 3 seconds, and launches again. You may recognize this from “Ball Sprite, The beginning of a round.”    * If zero balls remain, “Game Over” and the winner are declared and said. (Use a `say` block.) The player with the most points is the winner.
 
 ## Additional extensions
 
