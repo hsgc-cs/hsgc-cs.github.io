@@ -1,6 +1,17 @@
 #
+# HSGC Intro to CS
+# Spring 2015
+# Cryptography Project Help
+#
+# This is code to help you with the substitution cipher if you get stuck.
+# This code WILL NOT run, but all the lines of code and variables you need are here.
+# You will need to write what to assign to each variable.
+#
+# A.) Use this code as a hint, or 
+# B.) Replace your code's functions with these, then fill in the blanks.
+#
 # If you use this helping code, you MUST write a comment about EACH LINE.
-# Tell us in English what that line does. (It may only be a few words)
+# Tell us in English what that line does. (It may only be a few words.)
 #
 # Use # to write a comment.
 #
