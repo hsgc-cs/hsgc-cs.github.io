@@ -16,7 +16,7 @@
 # Use # to write a comment.
 #
 
-print("Example comment line. Ignore me.") # Comments can come at the end of the line.
+print("Example comment line. Ignore me.")  # Comments can come at the end of the line.
 
 
 def encrypt_caesar(plain_text, encryption_key):
