@@ -7,6 +7,7 @@
 
 print("Example comment line. Ignore me.") # Comments can come at the end of the line.
 
+
 def encrypt_caesar(plain_text, encryption_key):
     cipher_text =
     for plain_letter in plain_text:
@@ -15,9 +16,9 @@ def encrypt_caesar(plain_text, encryption_key):
             shifted_index =
             cipher_index =
             cipher_letter =
-            cipher_text +=
+            cipher_text =
         else:
-            cipher_text +=
+            cipher_text =
     return cipher_text
 
 
@@ -29,7 +30,7 @@ def decrypt_caesar(cipher_text, decryption_key):
             shifted_index =
             plain_index =
             plain_letter =
-            plain_text +=
+            plain_text =
         else:
-            plain_text +=
+            plain_text =
     return plain_text
