@@ -30,9 +30,9 @@ def encrypt_substitution(plain_text, substitution_string):
         if plain_letter in alphabet:
             plain_letter_index =
             cipher_letter =
-            cipher_text +=
+            cipher_text =
         else:
-            cipher_text +=
+            cipher_text =
     return cipher_text
 
 
@@ -47,7 +47,7 @@ def decrypt_substitution(cipher_text, substitution_string):
         if cipher_letter in substitution_string:
             cipher_letter_index =
             plain_letter =
-            plain_text +=
+            plain_text =
         else:
-            plain_text +=
+            plain_text =
     return plain_text
