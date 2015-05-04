@@ -62,7 +62,21 @@
                 	<a href="http://ccl.northwestern.edu/netlogo/docs/">NetLogo User Manual</a><br/>
                 	<a href="https://www.cs.unm.edu/~joel/cs4all/core-concepts.pdf">NetLogo Core Concepts Review</a><br/>
                 	<a href="https://www.cs.unm.edu/~joel/cs151/notes/Netlogo_Commands_week1.pdf">NetLogo Command Cheat Sheet</a><br/>
-                
+                	The code from today:
+                	<pre>to draw-square
+  clear-all
+  create-turtles 1000
+  ask turtles [
+  ;; draw square
+    set heading random 360
+    setxy random-xcor random-ycor
+    pen-down
+    repeat 4 [
+      forward 5
+      right 90
+    ]
+  ]
+end</pre>
                 </div>
             </div>   
             <div class="section">
